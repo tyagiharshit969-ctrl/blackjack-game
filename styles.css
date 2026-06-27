@@ -10,6 +10,8 @@ body {
 
 h1 {
     color: goldenrod;
+    font-size: 65px;
+    margin-bottom: 70px;
 }
 
 #message1 {
@@ -18,13 +20,29 @@ h1 {
 
 button {
     color: #016f32;
-    width: 200px;
-    max-width: 90%;
+    width: 100%;
+    max-width: 280px;
     background-color: goldenrod;
     border: none;
-    border-radius: 2px;
+    border-radius: 8px;
     display: block;
     justify-self: center;
     margin: 10px auto;
+    font-weight: bold;
+    padding: 12px;
+    margin: 8px auto;
+
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
+
+p {
+    color: white;
+    font-size: 28px;
+    margin: 18px 0;
+
 }
 
